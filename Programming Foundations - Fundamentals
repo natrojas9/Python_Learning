@@ -7,6 +7,11 @@
 #    call favorite_city at least 3 times
 #    output should include: "One of my favorite cities is"
 
+# Lessons learned - 
+    no need to print a function call if the function call has a print statement.
+    returning a value adds the value to the function call only if you're assigning the function to a variable
+
+
 
 #Draft
 def favorite_city(name):
