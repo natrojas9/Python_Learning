@@ -1,0 +1,33 @@
+# 8/20/21
+# Create program that produces name of Cities. Prints name of favorite city
+# Requirements:
+#   Must use a function
+#    Has a function named favorite_city
+#    favorite_city should have one parameter: name
+#    call favorite_city at least 3 times
+#    output should include: "One of my favorite cities is"
+
+
+#Draft
+def favorite_city(name):
+    print("One of my favorite cities is: ")
+    return (name)
+
+#a = favorite_city("PR")
+#c = favorite_city("MA")
+#b = favorite_city("MD")
+
+#print(a, b, c)
+
+print(favorite_city("PR"))
+print(favorite_city("MD"))
+print(favorite_city("MA"))
+
+
+# Updated after reviewing the solution
+def favorite_city(name):
+    print("One of my favorite cities is: ", name)
+
+favorite_city("PR")
+favorite_city("MD")
+favorite_city("MA")
