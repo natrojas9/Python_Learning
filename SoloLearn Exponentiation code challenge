@@ -1,0 +1,18 @@
+#8/22/21
+#SoloLearn Exponentiation code challenge
+#choice of 1 MM or .01 double every day for 30 days
+#doubling calc
+#5th day .01* (2**5) = .32 dollars
+
+#Lessons Learned
+#    hard to come up with variable names
+#    crazy to think about how many different ways there must be to do the same thing
+#    math is required
+
+penny = .01
+#day_doubled = int(input("How many days have passed? "))
+day_doubled = 30
+result_exp = 2**day_doubled
+result_final = penny * result_exp
+
+print(result_final)
